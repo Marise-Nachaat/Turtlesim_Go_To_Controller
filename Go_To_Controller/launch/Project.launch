@@ -1,0 +1,4 @@
+<launch>
+<rosparam file="$(find Go_To_Controller_pkg/config/Project.yaml)"/>
+<node name="turtlebot_controller" pkg="Go_To_Controller" type="Project.py" output="screen"/>
+</launch>
